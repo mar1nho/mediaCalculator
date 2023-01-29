@@ -1,0 +1,96 @@
+*{
+    padding: 5px;
+    margin: 4px;
+}
+body{
+    background-image: linear-gradient(to right, #360033,#0b8793);
+}
+h1{
+    color: #00FFFF;
+    border: 3px inset black;
+    background-image: linear-gradient(to right, #49a09d,#5f2c82);
+    box-shadow: 3px 3px 10px 3px black;
+    border-radius: 10rem;
+    text-shadow: 3px 3px 2px black;
+    letter-spacing: 4px;
+    font-size: 1.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;}
+h2{
+    color: #D8BFD8;
+    border: 3px inset black;
+    box-shadow: 3px 3px 10px 3px black;
+    border-radius: 1rem;
+    text-shadow: 3px 3px 2px black;
+    margin-bottom: 2rem;
+    width: 20rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;}
+h3{
+    color: #F8F8FF;
+}
+
+span{
+    color:#00FFFF;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+
+#corpo{
+    text-align: center;
+    background-image: linear-gradient(to right, #6441A5,#2a0845 );
+    bordeR: 6px outset #2E1437;
+    box-shadow: inset 2px 3px 2px 3px black;
+    width: 30rem;
+    height: 38rem;
+    margin: auto;
+    transform: translate(0%, 20%);
+    border-radius: 1rem;
+}
+#addToArray{
+    border-radius: 10px;
+    background-color:#40E0D0;
+    border: 2px outset black;
+    box-shadow: 3px 3px 5px 3px black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#addToArray:hover{
+    background-color:#00BFFF;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 3px 3px black;
+}
+#remArray{
+    background-color: #DC143C;
+    border: 1px solid black;
+    border-radius:3px;
+    box-shadow: inset 1px 1px 3px 3px black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#remArray:hover{
+    box-shadow: 3px 3px 5px 3px black;
+}
+#calcMedia{
+    border-radius: 10px;
+    background-color:#40E0D0;
+    border: 2px outset black;
+    box-shadow: 3px 3px 5px 3px black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#calcMedia:hover{
+    background-color:#00BFFF;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 3px 3px black;
+}
+#addNumber{
+    background-color:#E0FFFF;
+    border: 2px inset black;
+    border-radius: 5px;
+    height: 2rem;
+    font-weight: bold;
+}

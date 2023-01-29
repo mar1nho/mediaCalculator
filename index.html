@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média</title>
+</head>
+<body>
+    <div id="corpo">
+        <div>
+            <h1>Calculadora de Média</h1>
+        </div>
+        <div>
+            <h2>Coloque os números na Calculadora</h2>
+            <input type="number" id="addNumber" placeholder="Adicione os Números" style="text-align: center;"><br>
+            <h3>O número <span id="numbersAdded">0</span> foi adicionado na Calculadora</h3><br>
+            <button type="submit" id="addToArray" onclick="addArray()">Adicionar</button>
+            <button type="submit" id="remArray" onclick="remArray()">Remover</button><br>
+                <h3 id="mud">Os números adicionados na Calculadora</h3><span id="arrayContent"></span><br>
+            <div>
+                <button type='submit' id="calcMedia" onclick="calcMedia()">Calcular Média</button>
+                <h2>A média é:</h2>
+                <span id="resMedia" style="font-size:1.5rem;"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
