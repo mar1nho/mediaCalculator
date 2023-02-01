@@ -21,8 +21,8 @@ let arr = [];
     function calcMedia(){
         document.getElementById('addNumber').value = ''
         let soma = 0;
-        for(let i = 0; i < arr.length ; i++){
-            soma += arr[i];
+            for(let i = 0; i < arr.length ; i++){
+                soma += arr[i];
         }
         let media = soma / arr.length;
         document.getElementById('resMedia').innerHTML = numFormat(media);
